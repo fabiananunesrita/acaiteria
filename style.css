@@ -1,0 +1,116 @@
+body {
+    background-color: #800080; 
+}
+
+.titulo {
+    font-family: 'Great Vibes';
+}
+
+.texto {
+    font-family: 'Afacad';font-size: 22px;
+}
+
+h1, h2, h4, p, form {
+    color: #eff0f4;
+}
+
+h1 {
+    font-size: 150px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    background-color: #670067
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #eff0f4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #4d004d;
+  }
+
+.container {
+    display: flex; 
+    align-items: center; 
+    text-align: justify;
+  }
+
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+  .grid-item1 {
+    background-color: #800080(255, 255, 255, 0.8); 
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: #800080(255, 255, 255, 0.8); 
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+  }
+  .grid-item2 {
+    background-color: #800080(255, 255, 255, 0.8); 
+    padding: 10px;
+    font-size: 20px;
+    align-items: left;
+    height: 100%;
+  }
+  .button {
+    background-color: #670067;
+    color:#eff0f4;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .button:hover {
+    background-color: #4d004d;
+  }
+
+footer {
+    background-color: #670067;
+    padding: 20px;
+    color: #eff0f4;
+  }
+
+.escondido {
+    display: none;
+}
